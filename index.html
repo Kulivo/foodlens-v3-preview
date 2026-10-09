@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>FoodLens</title>
+    <script type="module" crossorigin src="/foodlens-v3-preview/assets/index-B1rwq0A8.js"></script>
+    <link rel="stylesheet" crossorigin href="/foodlens-v3-preview/assets/index-B7Wwh2Tb.css">
+  <script>
+(function () {
+  var base = '/foodlens-v3-preview'
+  var path = location.pathname
+  if (path.indexOf(base) !== 0 || location.hash) return
+  var extra = path.slice(base.length).replace(/\/index\.html$/, '').replace(/\/$/, '')
+  if (extra) location.replace(base + '/#' + extra + location.search)
+})()
+</script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
